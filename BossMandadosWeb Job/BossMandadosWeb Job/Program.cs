@@ -11,7 +11,10 @@ namespace BossMandadosWeb_Job
     {
         static void Main()
         {
-            Functions.AsignarMandados();
+            while (true)
+            {
+                Functions.AsignarMandados();
+            }
         }
     }
 }
