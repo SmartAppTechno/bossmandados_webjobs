@@ -106,7 +106,7 @@ namespace BossMandadosWeb_Job
             //Mensaje
             Console.WriteLine("Proceso Terminado Exitosamente");
         }
-        
+
         public static void AsignarMandadero(int mandadero,int mandado)
         {
             SqlCommand cmd = new SqlCommand("UPDATE manboss_mandados SET repartidor = @mandadero where id= @mandado_id", connection);
